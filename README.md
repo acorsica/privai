@@ -2,7 +2,9 @@
 
 **PrivAI** est une initiative en développement au sein de l’**Institut Mariani**, émanation recherche et développement de l’association **C.O.R.S.I.C.A.**
 
-PrivAI vise à documenter et préfigurer une gouvernance fiduciaire, non extractive et démocratiquement contrôlable des traces personnelles, des jumeaux numériques, des exports conversationnels et des signatures structurelles.
+PrivAI vise à documenter et préfigurer une gouvernance fiduciaire, non extractive et démocratiquement contrôlable des traces personnelles, des jumeaux numériques, des exports conversationnels, des Cogentigrams et des signatures structurelles.
+
+Document de cadrage : [`charte.md`](charte.md)
 
 ## Problème
 
@@ -54,6 +56,8 @@ Dépôt lié : [`JeanHuguesRobert/cogentia`](https://github.com/JeanHuguesRobert
 PrivAI est actuellement développé comme initiative de recherche, de doctrine et de préfiguration au sein de l’Institut Mariani.
 
 Dépôt lié : [`acorsica/institut-mariani`](https://github.com/acorsica/institut-mariani)
+
+Document de référence : [`acorsica/institut-mariani/initiatives.md`](https://github.com/acorsica/institut-mariani/blob/main/initiatives.md)
 
 ## Séparation
 
