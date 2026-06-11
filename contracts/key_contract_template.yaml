@@ -1,0 +1,230 @@
+contract:
+  id: ""
+  title: ""
+  version: "0.1.0"
+  status: draft
+  created_at: ""
+  updated_at: ""
+  language: fr
+  governing_documentation:
+    - "../README.md"
+    - "../charte.md"
+    - "README.md"
+
+parties:
+  subject_person:
+    name: ""
+    identifier: ""
+    status:
+      - living
+      - deceased
+      - incapacitated
+      - unknown
+  grantor:
+    name: ""
+    role:
+      - subject_person
+      - legal_representative
+      - heir
+      - rights_holder
+      - fiduciary_guardian
+      - mandatary
+  grantee:
+    name: ""
+    role: ""
+    contact: ""
+  fiduciary_guardian:
+    name: ""
+    organization: ""
+    contact: ""
+    required: false
+  heirs: []
+  rights_holders: []
+  witnesses: []
+
+profile:
+  type:
+    - KYS_Genealogy
+    - KYS_Legacy
+    - KYS_Works
+    - KYS_Family
+    - KYS_Public
+    - KYS_Research
+    - KYS_Mandate
+  version: ""
+  source_corpus: ""
+  source_repository: ""
+  source_commit: ""
+  corpus_scope: ""
+  profile_scope: ""
+
+purpose:
+  summary: ""
+  authorized_purposes: []
+  prohibited_purposes:
+    - commercial_extraction_without_consent
+    - political_targeting
+    - insurance_scoring
+    - employment_screening
+    - unrestricted_model_training
+    - impersonation
+    - unauthorized_publication
+    - unrestricted_simulation
+
+access:
+  access_level:
+    - metadata_only
+    - excerpts
+    - curated_subset
+    - full_profile
+    - supervised_access
+    - sealed_access
+  allowed_content: []
+  excluded_content: []
+  access_method: ""
+  storage_policy: ""
+  retention_policy: ""
+  redistribution_allowed: false
+  third_party_access_allowed: false
+
+duration:
+  start_date: ""
+  end_date: ""
+  renewal_policy: ""
+  expiration_effect: ""
+  posthumous_policy:
+    applies: false
+    rules_reference: ""
+
+governance:
+  consent_required: true
+  consent_record: ""
+  revocable: true
+  contestable: true
+  auditable: true
+  fiduciary_review_required: false
+  rights_review_required: false
+  heirs_review_required: false
+  publication_log_required: true
+  correction_channel: ""
+
+outputs:
+  allowed_outputs: []
+  prohibited_outputs:
+    - false_attribution
+    - fabricated_statement
+    - misleading_completion
+    - unrestricted_publication
+    - unlabelled_ai_generated_work
+    - simulated_person_without_notice
+    - derivative_product_without_source_reference
+  publication_policy: ""
+  citation_policy: ""
+  attribution_policy: ""
+  license_policy: ""
+
+ai_use:
+  retrieval_allowed: false
+  summarization_allowed: false
+  classification_allowed: false
+  extraction_allowed: false
+  generation_allowed: false
+  simulation_allowed: false
+  model_training_allowed: false
+  digital_twin_use_allowed: false
+  permitted_models: []
+  prohibited_models: []
+  training_policy:
+    dataset_scope: ""
+    retention_policy: ""
+    output_policy: ""
+    opt_out_or_revocation_policy: ""
+    audit_log_required: true
+
+digital_twin_policy:
+  allowed: false
+  allowed_levels:
+    - archive_grounding
+    - retrieval_context
+    - limited_question_answering
+    - representative_agent
+  prohibited_levels:
+    - unrestricted_simulation
+    - impersonation
+    - autonomous_legal_action
+    - autonomous_political_action
+  visible_disclaimer_required: true
+  non_substitution_clause_required: true
+
+derived_products_policy:
+  allowed: false
+  allowed_types: []
+  requires_source_reference: true
+  requires_review: true
+  requires_public_label: true
+  requires_rights_review: true
+  requires_fiduciary_review: false
+
+audit:
+  logs_required: true
+  log_retention: ""
+  review_frequency: ""
+  incident_reporting_channel: ""
+  audit_log_fields:
+    - timestamp
+    - actor
+    - profile_used
+    - contract_id
+    - corpus_reference
+    - action
+    - purpose
+    - output_reference
+    - review_status
+
+revocation:
+  revocation_channel: ""
+  revocation_effect: ""
+  notice_period: ""
+  access_termination_policy: ""
+  data_deletion_policy: ""
+  derivative_outputs_policy: ""
+  already_published_outputs_policy: ""
+
+contestation:
+  contestation_channel: ""
+  response_delay: ""
+  possible_claims:
+    - factual_error
+    - attribution_error
+    - filiation_error
+    - rights_violation
+    - unauthorized_publication
+    - unauthorized_ai_use
+    - misleading_simulation
+    - third_party_harm
+  correction_policy: ""
+
+risk_review:
+  sensitive_personal_data: false
+  living_third_parties_affected: false
+  minors_affected: false
+  deceased_person_affected: false
+  family_conflict_risk: false
+  public_exposure_risk: false
+  commercial_capture_risk: false
+  required_mitigations: []
+
+signatures:
+  grantor:
+    name: ""
+    signature: ""
+    date: ""
+  grantee:
+    name: ""
+    signature: ""
+    date: ""
+  fiduciary_guardian:
+    name: ""
+    signature: ""
+    date: ""
+  witnesses: []
