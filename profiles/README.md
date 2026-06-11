@@ -8,4 +8,6 @@ Ils ne donnent pas accès à une personne, à un Cogentigram complet ou à un ju
 
 ## Principe général
 
-Un profil KYS
+Un profil KYS répond à une finalité déterminée.
+
+Il doit permettre
