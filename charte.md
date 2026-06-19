@@ -1,3 +1,14 @@
+---
+document_role: "source"
+document_kind: "charter"
+visibility: "public"
+lifecycle_state: "active"
+classification_source: "cogentia.js"
+classification_version: "1"
+classification_rule: "charter"
+classification_confidence: "medium"
+---
+
 # Charte PrivAI
 
 ## Objet
