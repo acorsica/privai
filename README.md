@@ -1,3 +1,23 @@
+---
+title: PrivAI
+author: unknown
+date: '2026-06-03'
+document_role: source
+document_kind: documentation
+visibility: public
+lifecycle_state: working
+update_policy: UP-DEFAULT-REVIEWED
+provenance:
+  origin_type: repository
+  origin_repository: acorsica/privai
+  origin_ref: 54fd9c5
+  origin_date: '2026-06-03'
+  derived_from: []
+review:
+  status: unreviewed
+  reviewed_by: []
+---
+
 # PrivAI
 
 **PrivAI** est une initiative en développement au sein de l’**Institut Mariani**, émanation recherche et développement de l’association **C.O.R.S.I.C.A.**

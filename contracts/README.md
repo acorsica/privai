@@ -1,3 +1,23 @@
+---
+title: KYS Contracts
+author: unknown
+date: '2026-06-11'
+document_role: source
+document_kind: documentation
+visibility: public
+lifecycle_state: working
+update_policy: UP-DEFAULT-REVIEWED
+provenance:
+  origin_type: repository
+  origin_repository: acorsica/privai
+  origin_ref: '8814485'
+  origin_date: '2026-06-11'
+  derived_from: []
+review:
+  status: unreviewed
+  reviewed_by: []
+---
+
 # KYS Contracts
 
 ## Objet
