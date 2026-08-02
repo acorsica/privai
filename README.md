@@ -20,64 +20,74 @@ review:
 
 # PrivAI
 
-**PrivAI** est une initiative en développement au sein de l’**Institut Mariani**, émanation recherche et développement de l’association **C.O.R.S.I.C.A.**
+**PrivAI** est une initiative en développement au sein de l’**Institut Mariani**,
+émanation recherche et développement de l’association **C.O.R.S.I.C.A.**
 
-PrivAI vise à documenter et préfigurer une gouvernance fiduciaire, non extractive et démocratiquement contrôlable des traces personnelles, des jumeaux numériques, des exports conversationnels, des Cogentigrams et des signatures structurelles.
+Elle préfigure les conditions d’une **agence numérique portable et imputable** :
+une personne ou un collectif doit pouvoir conserver la maîtrise de ses traces,
+de ses représentations, de ses mandats et des actes accomplis en son nom, y
+compris lorsqu’il change de modèle, d’opérateur ou d’infrastructure.
 
-Document de cadrage : [`charte.md`](charte.md)
+> Les données ne suffisent pas : il faut aussi gouverner leur usage et les
+> actes qu’elles rendent possibles.
 
-## Problème
+## Le problème
 
-Les interactions longues avec des agents conversationnels, assistants numériques, systèmes d’intelligence artificielle ou outils cognitifs produisent des traces nouvelles.
+Les interactions avec des agents, assistants et systèmes d’IA produisent des
+traces qui peuvent devenir une matière première de jumeau numérique. Elles
+révèlent parfois préférences, modes de raisonnement, seuils d’acceptabilité,
+corrections, décisions et signatures structurelles.
 
-Ces traces ne sont pas seulement des archives ordinaires. Elles peuvent révéler :
+La question n’est donc pas seulement « qui héberge ces données ? », mais :
 
-- des préférences ;
-- des modes de raisonnement ;
-- des seuils d’acceptabilité ;
-- des corrections ;
-- des bifurcations ;
-- des décisions ;
-- des styles cognitifs ;
-- des signatures structurelles.
+> **Qui peut agir, au nom de qui, dans quelles limites, et avec quelles
+> preuves ?**
 
-Même lorsqu’elles ne sont pas explicitement biographiques, ces traces peuvent être identifiantes ou sensibles.
+Un changement de fournisseur ne devrait ni détruire la mémoire source, ni
+effacer un mandat, ni rendre un historique d’actes illisible ou impossible à
+reprendre.
 
-## Hypothèse centrale
+## Ce que PrivAI préfigure
 
-Un export conversationnel peut devenir une matière première de jumeau numérique.
+| Instrument | Question traitée | État |
+|---|---|---|
+| [Charte PrivAI](charte.md) | Quels principes protègent les traces et représentations personnelles ? | socle public |
+| [Profils KYS](profiles/README.md) | Quelle projection d’un corpus peut être exposée, pour quelle finalité ? | modèles de profils |
+| [Contrats KYS](contracts/README.md) | Qui peut utiliser cette projection, sous quelles conditions ? | modèle contractuel |
+| [STAKE / GAGE](assurance/stake_gage.md) | Quelle autonomie de capacité a réellement été exercée ? | cadre de preuve |
+| [Migration-Tested v0.1](conformance/migration_tested_v0.1.md) | Un agent peut-il migrer sans perdre ses invariants de gouvernance ? | préfiguration ouverte |
 
-Il peut contribuer à construire ou alimenter un Cogentigram, c’est-à-dire une représentation structurale de modes de pensée, de décision, de correction, de continuation et de gouvernance cognitive.
+## Solid et PrivAI
 
-## Principe
+Solid porte principalement sur la souveraineté des données : où elles résident
+et qui y accède. PrivAI porte sur leur **usage**, sur la délégation de capacité
+à agir et sur l’imputabilité des conséquences. Les deux approches sont
+complémentaires ; PrivAI ne dépend d’aucun stockage ou protocole particulier.
 
-PrivAI ne vise pas à extraire, capter ou marchandiser ces traces.
+## Relation avec Cogentia
 
-PrivAI vise au contraire à poser les conditions de leur gouvernance :
+PrivAI maintient le référentiel, les profils et les épreuves publiques.
+**Cogentia** est appelée à en être une première implémentation open source de
+référence ; elle ne constitue pas la norme et ne s’auto-certifie pas.
 
-- consentement ;
-- séparation des rôles ;
-- traçabilité ;
-- révocabilité ;
-- contestabilité ;
-- non-substitution ;
-- gouvernance posthume ;
-- protection contre la capture ;
-- contrôle par la personne concernée ou par une structure fiduciaire légitime.
+Le premier objectif de démonstration est un export puis import d’une instance
+de Twin entre deux environnements de modèles, avec conservation vérifiable du
+principal, des mandats, de la mémoire source, des traces et de la capacité de
+reprise. Voir [Migration-Tested v0.1](conformance/migration_tested_v0.1.md).
 
-## Lien avec Cogentia
+## Soutenir une preuve, non une capture
 
-PrivAI est lié aux concepts de Cogentia, Cogentigram, jumeau numérique et continuation.
+Une offre de sponsoring est en préparation autour de ce premier test public.
+Les soutiens peuvent financer une épreuve et des adaptateurs ouverts, mais ne
+reçoivent ni exclusivité, ni propriété sur le noyau, ni droit de modifier les
+conclusions. Voir le [cadre des partenariats fondateurs](sponsorship/README.md).
 
-Dépôt lié : [`JeanHuguesRobert/cogentia`](https://github.com/JeanHuguesRobert/cogentia)
+## Dépôts et cadres liés
 
-## Lien avec l’Institut Mariani
-
-PrivAI est actuellement développé comme initiative de recherche, de doctrine et de préfiguration au sein de l’Institut Mariani.
-
-Dépôt lié : [`acorsica/institut-mariani`](https://github.com/acorsica/institut-mariani)
-
-Document de référence : [`acorsica/institut-mariani/initiatives.md`](https://github.com/acorsica/institut-mariani/blob/main/initiatives.md)
+- [Cogentia](https://github.com/JeanHuguesRobert/cogentia) : implémentation et
+  expérimentations de jumeaux, continuations et actes tracés ;
+- [Institut Mariani](https://github.com/acorsica/institut-mariani) : cadre
+  institutionnel actuel de l’initiative.
 
 ## Séparation
 

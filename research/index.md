@@ -38,10 +38,12 @@ PrivAI documents fiduciary governance for personal traces, KYS profiles, digital
 | [KYS Legacy](../profiles/kys_legacy.md) | this repo | Legacy and posthumous transmission profile. |
 | [KYS Works](../profiles/kys_works.md) | this repo | Works and catalog profile. |
 | [KYS Contracts](../contracts/README.md) | this repo | Contractual usage framework for KYS profiles. |
+| [STAKE / GAGE](../assurance/stake_gage.md) | this repo | Evidence-based autonomy and resilience framework. |
+| [Migration-Tested v0.1](../conformance/migration_tested_v0.1.md) | this repo | Portable, accountable agent migration profile. |
+| [Founding Evidence Partners](../sponsorship/README.md) | this repo | Bounded and independent sponsorship framework. |
 | [Corpus Status](corpus-status.md) | this repo | Generated corpus view. |
 
 ## Related
 
 - [Institut Mariani initiatives](https://github.com/acorsica/institut-mariani/blob/main/initiatives.md)
 - [Cogentia](https://github.com/JeanHuguesRobert/cogentia)
-
