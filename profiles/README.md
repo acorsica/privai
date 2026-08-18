@@ -55,6 +55,14 @@ Exemples :
 
 Chaque profil doit rester finalisé. Un accès accordé pour une finalité ne vaut pas autorisation générale.
 
+## Mesures et probes
+
+Les profils et certificats KYS doivent rester distincts des instruments qui produisent leurs preuves. Une famille de **Cognitive Sovereignty Probes** est étudiée pour mesurer des capacités effectives telles que l’interposition d’un service contrôlé par l’usager, la portabilité, le contrôle de mémoire ou le coût de sortie.
+
+La note source correspondante est : [Cognitive Sovereignty Probe](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/cognitive_sovereignty_probe.md).
+
+Principe de séparation : `mesure -> représentation -> interprétation -> certification`.
+
 ## Non-substitution
 
 Un profil KYS ne doit pas permettre de confondre une personne avec sa représentation numérique.
