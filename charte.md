@@ -59,6 +59,19 @@ L’objectif n’est pas la surveillance généralisée, mais la responsabilité
 
 > un acte n’existe que s’il laisse une trace.
 
+## Principe de traçabilité proportionnée
+
+Une trace doit être nécessaire à une finalité déterminée de responsabilité,
+de preuve, de sécurité, de contestation ou d’audit. Elle doit être limitée en
+contenu, durée de conservation et accès.
+
+Lorsqu’une attestation ciblée, une empreinte, un manifest ou un reçu d’acte
+suffit à vérifier une condition, l’exposition des données brutes, d’un
+historique complet ou d’un raisonnement intime ne doit pas être exigée.
+
+La traçabilité doit permettre de démontrer un usage conforme sans transformer
+les personnes, leurs relations ou leurs corpus en objets de surveillance.
+
 ## Principe de révocabilité
 
 La personne concernée doit pouvoir, selon les cas :

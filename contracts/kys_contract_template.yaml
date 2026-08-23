@@ -1,7 +1,7 @@
 contract:
   id: ""
   title: ""
-  version: "0.1.0"
+  version: "0.2.0"
   status: draft
   created_at: ""
   updated_at: ""
@@ -57,6 +57,24 @@ profile:
   source_commit: ""
   corpus_scope: ""
   profile_scope: ""
+
+data_assurance:
+  assertion_scope: ""
+  provenance_references: []
+  integrity_references: []
+  issuer_or_attester: ""
+  evidence_references: []
+  freshness_at: ""
+  uncertainty_statement: ""
+  source_computing_conformance: ""
+
+data_pact:
+  id: ""
+  version: ""
+  permitted_uses: []
+  prohibited_uses: []
+  required_receipt_level: ""
+  retention_limit: ""
 
 purpose:
   summary: ""
@@ -170,6 +188,9 @@ audit:
   log_retention: ""
   review_frequency: ""
   incident_reporting_channel: ""
+  evidence_level: ""
+  access_policy: ""
+  redaction_policy: ""
   audit_log_fields:
     - timestamp
     - actor
@@ -180,6 +201,11 @@ audit:
     - purpose
     - output_reference
     - review_status
+    - evidence_level
+    - retention_deadline
+    - access_policy
+    - redaction_policy
+    - proof_reference
 
 revocation:
   revocation_channel: ""

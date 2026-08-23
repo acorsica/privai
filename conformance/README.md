@@ -1,7 +1,7 @@
 ---
 title: Conformance PrivAI
 author: Jean Hugues Noël Robert
-date: '2026-08-02'
+date: '2026-08-23'
 document_role: source
 document_kind: framework
 visibility: public
@@ -22,3 +22,8 @@ Le premier profil est [Migration-Tested v0.1](migration_tested_v0.1.md).
 Il s’articule avec [STAKE / GAGE](../assurance/stake_gage.md), qui fournit
 l’échelle générale de preuve fondée sur l’épreuve.
 
+Le cadre [Assurance Data Pact](data_pact_assurance.md) distingue la validité
+ou la provenance des données, le comportement vérifiable du computing qui les
+traite et l’autorité qui rend cet usage admissible. Il prépare des profils KYS
+et COP complémentaires, sans les confondre avec une certification
+institutionnelle déjà établie.

@@ -1,7 +1,7 @@
 ---
 title: STAKE / GAGE — autonomie de capacité éprouvée
 author: Jean Hugues Noël Robert
-date: '2026-07-31'
+date: '2026-08-23'
 document_role: source
 document_kind: framework
 visibility: public
@@ -64,12 +64,19 @@ une preuve, à une date, à un périmètre et à des limites explicites.
 | Instrument | Question | Objet |
 |---|---|---|
 | Profil KYS | Quelle projection peut être exposée, à quelle finalité et sous quelles conditions ? | corpus, personne, droits, finalité |
+| Assurance Data Pact | Que peut-on vérifier sur la donnée, le computing et l’autorité applicable ? | assertions, preuves, Data Pact, reçus |
 | STAKE | Quelle situation d’échec ou de dépendance est réellement exercée ? | scénario et exécution |
 | GAGE | Quelle capacité a été démontrée, avec quelles limites ? | système, Twin, collectif ou gardien |
 | Annexe KYS Resilience | Le profil KYS demeure-t-il portable, récupérable et gouvernable en cas de rupture ? | relation entre corpus et infrastructure |
 
 Un profil KYS ne devient pas une autorisation générale. Une attestation GAGE
 ne devient pas un label général de « souveraineté ».
+
+Une conformance COP peut étayer l’assurance d’un computing : elle atteste,
+dans un scénario et une version déterminés, que le système a appliqué un
+mandat ou un Data Pact et produit les preuves prévues. Elle ne prouve pas par
+elle-même la vérité matérielle des données reçues ni l’absence absolue d’actes
+hors trace.
 
 ## Échelle de preuve
 

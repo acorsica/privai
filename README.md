@@ -1,7 +1,7 @@
 ---
 title: PrivAI
 author: unknown
-date: '2026-06-03'
+date: '2026-08-23'
 document_role: source
 document_kind: documentation
 visibility: public
@@ -55,6 +55,7 @@ reprendre.
 | [Profils KYS](profiles/README.md) | Quelle projection d’un corpus peut être exposée, pour quelle finalité ? | modèles de profils |
 | [Contrats KYS](contracts/README.md) | Qui peut utiliser cette projection, sous quelles conditions ? | modèle contractuel |
 | [STAKE / GAGE](assurance/stake_gage.md) | Quelle autonomie de capacité a réellement été exercée ? | cadre de preuve |
+| [Assurance Data Pact](conformance/data_pact_assurance.md) | Que peut-on vérifier sur une donnée, le computing qui la traite et l’autorité applicable ? | cadre de conformance ouvert |
 | [Migration-Tested v0.1](conformance/migration_tested_v0.1.md) | Un agent peut-il migrer sans perdre ses invariants de gouvernance ? | préfiguration ouverte |
 
 ## Solid et PrivAI

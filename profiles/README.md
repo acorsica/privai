@@ -1,7 +1,7 @@
 ---
 title: Profils KYS
 author: unknown
-date: '2026-06-11'
+date: '2026-08-23'
 document_role: source
 document_kind: documentation
 visibility: public
@@ -26,6 +26,13 @@ Les profils KYS — Know Your Self — définissent des projections certifiées,
 
 Ils ne constituent pas un accès général à une personne, à un Cogentigram ou à un jumeau numérique. Ils définissent au contraire ce qui peut être exposé, à quelle fin, sous quelles conditions, avec quels droits de contestation, de révocation et d’audit.
 
+La qualification d’un profil KYS porte d’abord sur son périmètre, sa finalité
+et son autorité d’exposition. Elle peut également porter, de manière explicite
+et bornée, sur les assertions qu’il contient : provenance, intégrité,
+émetteur, éléments de preuve, date de fraîcheur et niveau d’incertitude. Elle
+ne transforme jamais une donnée dérivée ou un résultat de calcul en vérité
+absolue.
+
 ## Principe
 
 Un profil KYS doit toujours expliciter :
@@ -39,6 +46,11 @@ Un profil KYS doit toujours expliciter :
 - les règles de publication ;
 - les règles posthumes éventuelles ;
 - la structure fiduciaire compétente, si elle existe.
+
+Un profil qui s’appuie sur un computing déclaré conforme à COP doit distinguer
+la preuve de ce processus de la validité matérielle de ses sources. Une
+exécution conforme peut démontrer comment une donnée a été produite, non que
+chaque entrée était vraie, complète ou actuelle.
 
 ## Séparation des usages
 

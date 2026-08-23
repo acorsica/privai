@@ -1,7 +1,7 @@
 ---
 title: KYS Contracts
 author: unknown
-date: '2026-06-11'
+date: '2026-08-23'
 document_role: source
 document_kind: documentation
 visibility: public
@@ -99,6 +99,24 @@ profile:
   source_corpus: ""
   scope: ""
 
+data_assurance:
+  assertion_scope: ""
+  provenance_references: []
+  integrity_references: []
+  issuer_or_attester: ""
+  evidence_references: []
+  freshness_at: ""
+  uncertainty_statement: ""
+  source_computing_conformance: ""
+
+data_pact:
+  id: ""
+  version: ""
+  permitted_uses: []
+  prohibited_uses: []
+  required_receipt_level: ""
+  retention_limit: ""
+
 purpose:
   authorized_purposes: []
   prohibited_purposes: []
@@ -146,6 +164,9 @@ audit:
   log_retention: ""
   review_frequency: ""
   incident_reporting: ""
+  evidence_level: ""
+  access_policy: ""
+  redaction_policy: ""
 
 revocation:
   revocation_channel: ""
@@ -336,6 +357,11 @@ La contestation peut concerner :
 
 Tout usage significatif doit laisser une trace.
 
+Cette obligation est proportionnée : le contrat doit demander la preuve
+minimale suffisante pour vérifier l’acte, le contrat et la finalité, sans
+transformer le journal d’audit en copie du corpus ou de l’historique complet
+de la personne.
+
 Le journal d’audit devrait indiquer :
 
 ```yaml
@@ -349,9 +375,18 @@ audit_log:
   purpose: ""
   output_reference: ""
   review_status: ""
+  evidence_level: ""
+  retention_deadline: ""
+  access_policy: ""
+  redaction_policy: ""
+  proof_reference: ""
 ```
 
 L’objectif n’est pas la surveillance généralisée, mais la responsabilité.
+
+Une attestation ciblée, une empreinte, un manifest ou un reçu d’acte peut
+remplacer l’exposition des données brutes lorsqu’il permet de vérifier la
+condition pertinente.
 
 ## Contrats posthumes
 
