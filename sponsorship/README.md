@@ -7,7 +7,21 @@ document_kind: sponsorship-framework
 visibility: public
 lifecycle_state: working
 update_policy: UP-DEFAULT-REVIEWED
+license: CC BY-SA 4.0
+affiliation: Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica
+language: fr
+status: working-paper
+review:
+  status: unreviewed
+  reviewed_by: []
+provenance:
+  origin_type: unknown
+  origin_repository: unknown
+  origin_ref: unknown
+  origin_date: unknown
+  derived_from: []
 ---
+
 
 # Partenariats fondateurs PrivAI
 

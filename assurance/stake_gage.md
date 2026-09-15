@@ -16,7 +16,12 @@ provenance:
 review:
   status: unreviewed
   reviewed_by: []
+license: CC BY-SA 4.0
+affiliation: Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica
+language: fr
+status: working-paper
 ---
+
 
 # STAKE / GAGE — autonomie de capacité éprouvée
 
