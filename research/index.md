@@ -52,3 +52,18 @@ PrivAI documents fiduciary governance for personal traces, KYS profiles, digital
 
 - [Institut Mariani initiatives](https://github.com/acorsica/institut-mariani/blob/main/initiatives.md)
 - [Cogentia](https://github.com/JeanHuguesRobert/cogentia)
+
+<!-- BEGIN_AUTO: index_catalog -->
+## Corpus catalog
+
+*Generated navigation. Editorial sections above remain human-maintained.*
+
+| Document | Role | Updated |
+|---|---|---|
+| [Assurance Data Pact — donnée, computing et autorité](../conformance/data_pact_assurance.md) | source | 2026-08-23 |
+| [Conformance PrivAI](../conformance/README.md) | source | 2026-08-23 |
+| [PrivAI](../README.md) | source | 2026-08-23 |
+| [privai agent mandate](../AGENTS.md) | operational | 2026-08-11 |
+| [Reality test KYS Legacy with a posthumous Cogentia Personal Twin](../.cogentia/issues/acorsica-privai/issue-00001.md) | source | unknown |
+
+<!-- END_AUTO: index_catalog -->
